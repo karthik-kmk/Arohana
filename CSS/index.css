@@ -1,0 +1,240 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scrollbar-track{
+    background:#6F1D1B;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background: #FFE6A7;
+    border-radius: 10px
+}
+
+
+body{
+    background-image: url("/IMAGES/backgroundmain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home{
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    margin-right: 30px;
+    font-size: 30px;
+    border: 3px solid #6F1D1B;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+    background-color: #FFE6A7;
+}
+.home-logo{
+    display: none;
+}
+.home a{
+    text-decoration: none;
+    color: black;
+     
+}
+
+.home:hover{
+    cursor: pointer;
+}
+
+
+.logo{
+    width:180px;
+    height: 180px;
+    border-radius: 50%;
+    
+}
+.logo-div{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+
+h1{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 90px;
+    text-shadow: 1px 1px whitesmoke;
+    
+    
+}
+
+.slogan{
+    
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 1px 1px whitesmoke;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.maindiv{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+} 
+
+.shop{
+    
+    font-size: 40px;
+    width: 400px;
+    height: 400px;
+    padding: 5px 5px 5px 5px;
+    border: 5px solid #6F1D1B;
+    margin-top: 50px;
+    background-color:#FFE6A7;
+    text-align: center;
+    border-radius: 10px;
+    transition: 1s;
+}
+.txt-decor{
+    color: black;
+    text-decoration: none;
+}
+
+hr{
+    height: 3px;
+    background-color: #6F1D1B;
+    margin-top: 3px;
+    border-color:#6F1D1B ;
+}
+
+
+.mainimg{
+    width:400px ;
+    height: 340px;
+    margin-top: 5px ;
+    
+}
+
+.involve{
+    font-size: 40px;
+    width: 400px;
+    height: 400px;
+    padding: 5px 5px 5px 5px;
+    border: 5px solid #6F1D1B ;
+    transition: 1s;
+    margin-top: 50px;
+    background-color: #FFE6A7;
+    text-align: center;
+    border-radius: 10px;
+    border-radius: 10px;
+     
+
+}
+
+.donation{
+    font-size: 40px;
+    width: 400px;
+    height: 400px;
+    padding: 5px 5px 5px 5px;
+    border: 5px solid #6F1D1B;
+    margin-top: 50px;
+    background-color: #FFE6A7   ;
+    text-align: center;
+    border-radius: 10px;
+    border-radius: 10px;
+    transition: 1s;
+} 
+
+
+
+.hr{
+    height: 3px;
+    background-color: #6F1D1B;
+    margin-top: 3px;
+    border-color:#6F1D1B ;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.about-us{
+    text-align: center;
+    font-size: 50px;
+    margin-left: 20px;
+    text-shadow: 1px 1px whitesmoke;
+
+}
+.about-usp{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left:5px;
+    margin-right: 5px;
+    text-shadow: 1px 1px black;
+}
+
+.border:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+    z-index:2;
+}
+
+@media(max-width:500px){
+    .maindiv{
+        display: block;
+    }
+    .mainimg{
+        height: 250px;
+        width: 300px;
+    }
+    .shop{
+        height: fit-content;
+        width: fit-content;
+    }
+    .for-media{
+        display: flex;
+        justify-content: center;
+    }
+
+    .donation{
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .involve{
+        height: fit-content;
+        width: fit-content;
+    }
+    .home-logo{
+        display: block;
+        
+    }
+    .home1{
+        display: none;
+    }
+
+    .home{
+        float: right;
+        margin-right: 1px;
+        margin-top: 1px;
+    }
+    .about-usp{
+        font-size: 15px;
+    }
+    .about-us{
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+}
+
+
+

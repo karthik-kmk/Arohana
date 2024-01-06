@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("/IMAGES/backgroundmain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home{
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    margin-right: 30px;
+    font-size: 30px;
+    border: 3px solid #6F1D1B;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+    background-color: #FFE6A7;
+    
+}
+.home a{
+    text-decoration: none;
+    color: black;
+     
+}
+
+.home:hover{
+    cursor: pointer;
+}
+
+
+.logo{
+    width:180px;
+    height: 180px;
+    border-radius: 50%;
+    
+}
+.logo-div{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+
+.arohana{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 90px;
+    text-shadow: 1px 1px whitesmoke;
+    
+    
+}
+
+.slogan{
+    
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 1px 1px whitesmoke;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    border: 5px solid #6F1D1B;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    background-color: #FFE6A7;
+    border-radius: 10px;
+    margin-top: 40px;
+       
+}
+.hsignup{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 2px 2px white;
+    margin-bottom: 10px;
+}
+
+.input1{
+    height: 40px;
+    width: 200px;
+    text-indent: 10px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    border : 3px solid #6F1D1B;
+    margin-left: 10px;
+    
+}
+
+.input{
+    height: 40px;
+    width: 400px;
+    text-indent: 10px;
+    
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    border : 3px solid #6F1D1B;
+}
+.main select{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: 3px solid #6F1D1B;
+}
+
+
+.text{
+    font-size: 20px;
+}
+
+.gender-center{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+
+.signup{
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 25px;
+    background-color: darkolivegreen;
+    border : 3px solid #6F1D1B;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    margin-bottom: 10px;
+}
+
+.signup:hover{
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scrollbar-track{
+    background:#6F1D1B;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background: #FFE6A7;
+    border-radius: 10px
+}
+.home-logo{
+    display: none;
+}
+
+@media(max-width:500px){
+    .arohana{
+        font-size: 60px;
+        margin-top: 130px;
+    }
+     .hsignup{
+        margin-top: 1px;
+        font-size: 60px;
+     }
+
+     .input1{   
+        width: 150px;
+    }
+
+    .input{
+        width: 250px;
+        margin-left: 45px;
+    }
+
+    .main select{
+        width: 100px;
+    }
+    .date{
+        margin-left: 20px;
+    }
+
+    .text{
+        margin-left: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .signup{
+        width: 290px;
+    }
+    .home-logo{
+        display: block;
+        
+    }
+    .home1{
+        display: none;
+    }
+
+    .home{
+        float: right;
+        margin-right: 1px;
+        margin-top: 1px;
+    }
+}

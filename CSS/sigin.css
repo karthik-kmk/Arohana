@@ -1,0 +1,195 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+body{
+    background-image: url("/IMAGES/backgroundmain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home{
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    margin-right: 30px;
+    font-size: 30px;
+    border: 3px solid #6F1D1B;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+    background-color: #FFE6A7;
+    
+}
+.home a{
+    text-decoration: none;
+    color: black;
+     
+}
+
+.home:hover{
+    cursor: pointer;
+}
+
+
+.logo{
+    width:180px;
+    height: 180px;
+    border-radius: 50%;
+    
+}
+.logo-div{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+
+.arohana{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 90px;
+    text-shadow: 2px 2px whitesmoke;
+    
+    
+}
+.home-logo{
+    display: none;
+}
+
+.slogan{
+    
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 2px 2px whitesmoke;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.welcome{
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+    background-color: #FFE6A7;
+    border: 5px solid #6F1D1B;
+    border-radius: 20px;
+    margin-top: 40px;
+    
+}
+.center-div{
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-h1{
+    font-size: 50px;
+    color: black;
+    text-shadow: 2px 2px white;
+    text-align: center;
+
+}
+
+.welcome input{
+    height: 40px;
+    width: 400px;
+    text-indent: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    border : 3px solid #6F1D1B;
+
+}
+
+.login{
+    height: 40px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color:#6F1D1B;
+    border : 3px solid #6F1D1B;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.login:hover{
+    cursor: pointer;
+}
+
+.new{
+    height: 60px;
+    width: 400px;
+    padding-left: 10px ;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: darkolivegreen;
+    border: 3px solid #6F1D1B; 
+}
+
+.new:hover{
+    cursor: pointer;
+}
+
+hr{
+    height: 3px;
+    background-color: #6F1D1B;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scrollbar-track{
+    background:#6F1D1B;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background: #FFE6A7;
+    border-radius: 10px
+}
+
+@media(max-width:500px){
+    .arohana{
+        font-size: 60px;
+        margin-top: 130px;
+    }
+    .welcome-h1{
+        font-size: 50px;
+        margin-top: 1px;
+    }
+    .welcome input{
+        width: 300px;
+        
+    }
+    .login{
+        width: 300px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .new{
+        width: 300px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .home-logo{
+        display: block;
+        
+    }
+    .home1{
+        display: none;
+    }
+
+    .home{
+        float: right;
+        margin-right: 1px;
+        margin-top: 1px;
+    }
+}

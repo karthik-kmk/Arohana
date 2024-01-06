@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/CSS/main.css">
+        <link rel="stylesheet" href="/CSS/responsive.css">
+        <title>Home</title>
+    </header>
+    <body>
+        <div class="home">
+            <a href="/index.html" class="go-back">GO BACK</a>
+            <a href="#" onclick="showSidebar()" class="logo-sidebar"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+        </div>
+        
+
+
+    <div class="logo-div">
+        <img src="/IMAGES/arohana.jpeg" alt="LOGO" class="logo">
+    </div>
+
+    <h1>AROHANA</h1>
+    <p class="slogan">Rise Upwards</p>
+
+
+    <!-- ----------------------------------------------------------- -->
+
+    <div class="sidebar">
+        <a href="#" onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="60" viewBox="0 -960 960 960" width="60"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+        <a href="/shop.html">Shop</a>
+        <a href="/merchandise.html">Merchandise</a>
+        <a href="/signin.html">Volunteer</a>
+        <a href="/donations.html">Donate</a>
+        <a href="/index.html">Go Back</a>
+    </div>
+    
+    <!-- --------------------------------------------- -->
+    
+    <div class="navbar">
+        <a href="/shop.html">SHOP</a>
+        <a href="/merchandise.html">MERCHANDISE</a>
+        <a href="/signin.html">VOLUNTEER</a>
+        <a href="/donations.html">DONATE</a>
+    </div>
+
+    <!-- ----------------------------------------------------------- -->
+
+    <div class="div-center">
+    <div class="volunteer">
+        <p class="heading">JOIN US</p>
+        <p class="heading-text">
+            Welcome to our NGO's dedicated platform, where compassion meets action in the fight against poverty. At the
+            heart of our mission lies the unwavering belief that every act of kindness has the power to make a profound
+            impact. As you navigate through our website, you'll discover a myriad of services and products designed to
+            uplift those in need, offering a helping hand to break free from the shackles of poverty. We invite you to
+            become a catalyst for change by joining our passionate team of volunteers. Your time, skills, and commitment
+            can turn aspirations into reality, creating a ripple effect that transforms lives. Whether you're drawn to
+            community outreach, fundraising, or administrative support, there's a meaningful role awaiting you. Embrace
+            the opportunity to be a beacon of hope, and together, let's forge a path towards a brighter, more equitable
+            future. Join us in the journey to make a lasting difference – because, united, we can truly change the
+            world.
+        </p>
+        <a href="/signin.html" class="click">Click here to join us</a>
+    </div>
+</div>
+
+
+    <!-- ----------------------------------------------------------- -->
+
+
+    <div class="div-center">
+    <div class="shop">
+        <p class="heading">ONLINE STORE</p>
+        <p class="heading-text">Welcome to our vibrant online store, a haven for enthusiasts of artisanal treasures and
+            cultural delights. Immerse yourself in a world of creativity and tradition as you explore our curated
+            collection of handicrafts, traditional crafts, and handmade accessories. Each piece tells a unique story,
+            crafted with passion and skill, preserving the rich heritage of artisans from around the world. Our store is
+            a celebration of diversity, offering not only visually stunning creations but also a connection to the roots
+            of craftsmanship. Indulge your senses further with our carefully selected regional delicacies, packed with
+            the flavors and authenticity of different cultures. From intricately woven textiles to delicately carved
+            artifacts, and from handmade jewelry to tempting regional treats, our online store is a treasure trove
+            waiting to be discovered. Elevate your shopping experience with us, where every purchase is a celebration of
+            artistry and tradition.</p>
+        <a href="/shop.html" class="click">Click here to View Shop</a>
+    </div>
+    </div>
+
+
+    <!-- ----------------------------------------------------------- -->
+
+
+    <div class="div-center">
+    <div class="donate">
+        <p class="heading">DONATION</p>
+        <p class="heading-text">Embark on a journey of philanthropy with our organization and become a beacon of positive
+            change. Your support, in the form of generous donations, is a vital force in our mission to make a
+            meaningful impact on the lives of those grappling with various challenges. Whether you choose to contribute
+            a one-time gift or become a recurring donor, your generosity fuels our initiatives in alleviating poverty,
+            promoting education, and fostering community development. Every donation, regardless of size, plays a
+            pivotal role in creating a ripple effect of hope and empowerment. Join us in building a brighter future for
+            those in need, where your compassion transforms into tangible assistance. Your generosity becomes the bridge
+            that connects dreams to opportunities, and together, we can make a lasting difference. Donate today and be
+            an integral part of our collective effort to create positive change in the world.</p>
+        <a href="/donations.html" class="click">Click here to Donate</a>
+    </div>
+    </div>
+    <!-- ----------------------------------------------------------- -->  
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+            
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>
